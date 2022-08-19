@@ -23,4 +23,4 @@ for (var i = 0; i < 100; i++) {
 let random = Math.floor(Math.random() * 100)
 document.querySelectorAll(".spot")[random].textContent = "click me"
 
-document.querySelectorAll(".spot")[random].style.backgroundColor="cyan"
+document.querySelectorAll(".spot")[random].style.backgroundColor="#00ffff"
