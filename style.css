@@ -1,6 +1,6 @@
 .spot {
-  background-color: pink;
-  border: 3px solid;
+  background-color: #ffc0cb;
+  border: 2px solid;
   height: 25px;
   text-align: center;
   vertical-align: middle;
@@ -24,4 +24,7 @@
   left: 0;
   right: 0;
   margin-top: 10px;
+}
+body{
+  background-color: #e6c97d;
 }
