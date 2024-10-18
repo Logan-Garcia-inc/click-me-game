@@ -39,6 +39,8 @@ if (!paused){
 return
 }
 paused=false;
+ score=0
+      document.querySelector(".score").textContent = score
   var time=10;
   while (time>0){
   	time-=1
@@ -46,6 +48,7 @@ paused=false;
   	await sleep(1000)
     
   }
+     
   paused=true
 }
 var startButton =document.querySelector(".start");
